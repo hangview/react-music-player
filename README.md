@@ -21,7 +21,7 @@
 
 ### 效果
 
-![列表页面](http://static.corp.elong.com/inf-style/list.png)
+![列表页面](https://github.com/hangview/react-music-player/blob/master/docs/list.png)
 
 ![播放页面](http://static.corp.elong.com/inf-style/play.png)
 
