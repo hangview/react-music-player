@@ -23,7 +23,7 @@
 
 ![列表页面](http://static.corp.elong.com/inf-style/play.png)
 
-![播放页面](/docs/list.png)
+![播放页面](http://static.corp.elong.com/inf-style/play.png)
 
 
 
