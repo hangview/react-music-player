@@ -1,5 +1,5 @@
 import request from '../utils/request';
 
 export async function fetchList() {
-  return request(`/api/fetchList`)
+  return request('/music/fetchList');
 }

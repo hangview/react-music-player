@@ -17,5 +17,6 @@
   },
   "proxy": {
 
-  }
+  },
+  "disableCSSModules": true
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './progress.less';
+import './progress.less';
 
 let Progress = React.createClass({
   getDefaultProps() {
@@ -14,7 +14,7 @@ let Progress = React.createClass({
   },
   render() {
     return (
-      <div className={styles.componentProgress} ref="progressBar" onClick={this.changeProgress}>
+      <div className='componentProgress' ref="progressBar" onClick={this.changeProgress}>
         <div  style={{width: `${this.props.progress}%`, background: this.props.barColor}}></div>
       </div>
     );

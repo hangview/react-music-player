@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './listitem.less';
+import './listitem.less';
 
 export default class ListItem extends React.PureComponent {
 
@@ -12,9 +12,9 @@ export default class ListItem extends React.PureComponent {
     let item = this.props.data;
 
     return (
-      <li className = {`row ${styles.componentListitem}  ${this.props.focus?styles.focus:''}  `}  onClick={() => this.props.clickItem(item.id)}>
+      <li className = {`row componentListitem  ${this.props.focus?'focus':''}`}  onClick={() => this.props.clickItem(item.id)}>
         <p><span className="bold">{item.title}</span> - {item.artist}</p>
-        <p className="-col-auto delete" />
+        {/*<p className="-col-auto delete" />*/}
       </li>
 
     )
