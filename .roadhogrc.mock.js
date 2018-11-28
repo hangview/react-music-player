@@ -41,7 +41,7 @@ const items = [
 ];
 
 const proxy = {
-  '/music/fetchList': items,
+  '/music/all': items,
   '/music/list/:id': function (req, res) {
     const id = req.params.id;
     const result = items.filter(item => item.id == id)[0];

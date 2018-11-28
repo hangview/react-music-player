@@ -1,9 +1,9 @@
-## Dva React 
+## Dva React
 
 #### V1  -  a music player based on dva-react
 
 
-### run 
+### run
 
 * npm install
 * npm start
@@ -15,7 +15,6 @@
 2. 完整的数据流，前端mock数据，router->model->service
 3. 播放功能基于jplayer
 4. dva学习资料: https://github.com/dvajs/dva-knowledgemap
-5. 比较粗糙，如果看了欢迎拍砖
 
 
 
@@ -25,7 +24,10 @@
 
 ![播放页面](https://github.com/hangview/react-music-player/blob/master/docs/play.png)
 
-
+### Needs to do
+1、 首屏加载
+2、 移动端
+3、 数据源性能问题
 
 
 
