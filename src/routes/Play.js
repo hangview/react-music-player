@@ -113,8 +113,9 @@ export default class Play extends PureComponent {
   }
 
   prev() {
-    let id = this.props.currentItem.id;
-    const num = id <= 2 ? this.props.lists.length : --id;
+    const id = this.props.currentItem.id;
+    const key = this.props.lists.filter(music => music.id === id)[0].key;
+    const num = key < 2 ? this.props.lists.length : key - 1;
     this.changeItem(num);
   }
 
